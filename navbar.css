@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    color:white;
+    background-color: #85191A;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.navbar{
+   
+    font-size: larger;
+    font-weight: 600;
+    display:flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 160px;
+    margin-right: 200px;
+    z-index: 10;
+    position: relative;
+    height: 50px;
+}
+.navbar .nav li{
+    display: inline-block;
+    margin: 5px 15px;
+
+    
+}
