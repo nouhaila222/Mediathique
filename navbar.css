@@ -27,6 +27,11 @@ nav{
 .navbar .nav li{
     display: inline-block;
     margin: 5px 15px;
-
-    
+}
+.login a{
+    text-decoration: none;
+    color: white;
+}
+.login a:hover{
+    color: #c28a8b;
 }
