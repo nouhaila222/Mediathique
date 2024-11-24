@@ -1,36 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Open+Sans:wght@300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 body{
     background-color: #E9C3B2;
 }
 
 .image{
     position: absolute;
-    width: 740px;
-    height: 800px;
-    left: 300px;
-    top: 121px;
-}
-.search{
-    position: relative;
-    left: 450px;
+    left: 700px;
     top: 140px;
+}
+
+.image img{
+    width: 400px;
+    height: 500px;
+}
+.welcom{
+    position: relative;
+    right: -140px;
+    top: 250px;
     width: 400px;
     text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
 }
-.search h1{
+.welcom h1{
     color:#85191A ;
-    font-size: 800;
-    font-weight: 900;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 600;
+    /* font-weight: 900; */
+    font-family: "Open Sans", sans-serif;
     font-style: normal;
+    padding-top: 20px;
 }
-.search p{
+.welcom p{
     color: #85191A;
     font-size: large;
     font-style: normal;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
 }
-.search input{
+.welcom input{
     color: #85191A;
     border-color: #85191A;
     border-radius: 20px;
@@ -40,4 +48,19 @@ body{
     padding-left: 10px;
     position: relative;
     top: 10px;
+}
+.description{
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: large;
+    color: #85191A;
+    position: relative;
+    top: 580px;
+    left: 100px;
+}
+.description h2{
+    color: black;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding-top: 30px;
+    padding-left: 20px;
 }
