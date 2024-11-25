@@ -56,6 +56,7 @@ body{
     position: relative;
     top: 580px;
     left: 100px;
+    width: 1130px;
 }
 .description h2{
     color: black;
@@ -63,4 +64,25 @@ body{
     font-size: larger;
     padding-top: 30px;
     padding-left: 20px;
+    text-align: center;
+}
+
+.popularbook{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.popularbook div{
+    margin-right: 150px;
+}
+.popularbook img{
+    width: 170px;
+    height: 270px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.popularbook p{    color: black;
+    font-size: large;
+    /* text-align: center; */
 }

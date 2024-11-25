@@ -11,9 +11,8 @@ nav{
     height: 100%;
 }
 .navbar{
-   
     font-size: larger;
-    font-weight: 600;
+    /* font-weight: 600; */
     display:flex;
     list-style-type: none;
     justify-content: space-between;
